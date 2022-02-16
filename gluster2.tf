@@ -13,7 +13,7 @@ terraform {
 provider "azurerm" {
   features {}
 
-subscription_id ="xxxxx"
+subscription_id ="xxxxxx"
 tenant_id ="xxxxx"
 client_id ="xxxx"
 client_secret ="xxxxx"
