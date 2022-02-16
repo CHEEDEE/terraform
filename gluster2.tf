@@ -131,7 +131,7 @@ resource "azurerm_linux_virtual_machine" "vm1" {
   source_image_reference {
     publisher = "RedHat"
     offer     = "RHEL"
-    sku       = "7_9"
+    sku       = "79-gen2"
     version   = "latest"
   }
 
